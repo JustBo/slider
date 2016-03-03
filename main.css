@@ -1,0 +1,25 @@
+.slider{
+    width:80%;
+    margin:0 auto;
+    position:relative;
+    background-color:green;
+    text-align:center;
+}
+span{
+    font-size:30px;
+}
+.controller{
+    position:absolute;
+}
+.left{
+    left:0;
+}
+.right{
+    right:0;
+}
+.item{
+    display:none;
+}
+.active{
+    display:block;
+}
