@@ -1,23 +1,19 @@
 .slider{
     width:80%;
     margin:0 auto;
-    position:relative;
     background-color:green;
     text-align:center;
 }
-span{
+.controller{
     font-size:30px;
     cursor:pointer;
     margin:0;
 }
-.controller{
-    position:absolute;
-}
 .left{
-    left:0;
+    float:left;
 }
 .right{
-    right:0;
+    float:right;
 }
 .item{
     width:0;
@@ -29,4 +25,11 @@ span{
     height:100%;
     opacity:1;
     transition:opacity 2s;
+}
+.clearfix{
+    clear:both;
+}
+img{
+    width:800px;
+    height:550px;
 }
